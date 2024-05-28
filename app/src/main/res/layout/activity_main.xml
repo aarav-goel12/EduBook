@@ -1,3 +1,17 @@
-<LinearLayout>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.fragment.app.FragmentContainerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96F4F4"
+    android:name="androidx.navigation.fragment.NavHostFragment"
+    app:navGraph= "@navigation/nav_graph"/>
 
 </LinearLayout>
