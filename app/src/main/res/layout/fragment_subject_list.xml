@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubjectListFragment"
+    android:orientation="vertical"
+    android:background="#5AFDFC"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Subjects"
+        android:textSize="40dp"/>
+    <Button
+        android:id="@+id/MathId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MATHEMATICS"
+        android:textSize="25dp"
+        android:layout_margin="15dp"/>
+    <Button
+        android:id="@+id/PhysicsId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHYSICS"
+        android:textSize="25dp"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/ChemistryId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHEMISTRY"
+        android:textSize="25dp"
+        android:layout_margin="15dp"/>
+    <Button
+        android:id="@+id/CSId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPUTER SCIENCE"
+        android:textSize="25dp"
+        android:layout_margin="15dp"/>
+
+</LinearLayout>
