@@ -23,10 +23,18 @@
         <action
             android:id="@+id/action_subjectListFragment_to_mathFragment"
             app:destination="@id/mathFragment" />
+        <action
+            android:id="@+id/action_subjectListFragment_to_physicsFragment"
+            app:destination="@id/physicsFragment" />
     </fragment>
     <fragment
         android:id="@+id/mathFragment"
         android:name="com.example.edubook.MathFragment"
         android:label="fragment_math"
         tools:layout="@layout/fragment_math" />
+    <fragment
+        android:id="@+id/physicsFragment"
+        android:name="com.example.edubook.PhysicsFragment"
+        android:label="fragment_physics"
+        tools:layout="@layout/fragment_physics" />
 </navigation>
