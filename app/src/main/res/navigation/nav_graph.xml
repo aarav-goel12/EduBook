@@ -10,5 +10,23 @@
         android:id="@+id/welcomeFragment"
         android:name="com.example.edubook.WelcomeFragment"
         android:label="fragment_welcome"
-        tools:layout="@layout/fragment_welcome" />
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_subjectListFragment"
+            app:destination="@id/subjectListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/subjectListFragment"
+        android:name="com.example.edubook.SubjectListFragment"
+        android:label="fragment_subject_list"
+        tools:layout="@layout/fragment_subject_list" >
+        <action
+            android:id="@+id/action_subjectListFragment_to_mathFragment"
+            app:destination="@id/mathFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mathFragment"
+        android:name="com.example.edubook.MathFragment"
+        android:label="fragment_math"
+        tools:layout="@layout/fragment_math" />
 </navigation>
