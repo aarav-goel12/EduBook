@@ -23,25 +23,25 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MECHANICS"
+        android:text="ELECTROMAGNETISM"
         android:textSize="30dp"
         android:layout_margin="20dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MECHANICS"
+        android:text="OPTICS"
         android:textSize="30dp"
         android:layout_margin="20dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MECHANICS"
+        android:text="THERMODYNAMICS"
         android:textSize="30dp"
         android:layout_margin="20dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MECHANICS"
+        android:text="QUANTUM MECHANIC"
         android:textSize="30dp"
         android:layout_margin="20dp"/>
 
