@@ -26,6 +26,12 @@
         <action
             android:id="@+id/action_subjectListFragment_to_physicsFragment"
             app:destination="@id/physicsFragment" />
+        <action
+            android:id="@+id/action_subjectListFragment_to_chemistryFragment"
+            app:destination="@id/chemistryFragment" />
+        <action
+            android:id="@+id/action_subjectListFragment_to_computerScienceFragment"
+            app:destination="@id/computerScienceFragment" />
     </fragment>
     <fragment
         android:id="@+id/mathFragment"
@@ -37,4 +43,14 @@
         android:name="com.example.edubook.PhysicsFragment"
         android:label="fragment_physics"
         tools:layout="@layout/fragment_physics" />
+    <fragment
+        android:id="@+id/chemistryFragment"
+        android:name="com.example.edubook.ChemistryFragment"
+        android:label="fragment_chemistry"
+        tools:layout="@layout/fragment_chemistry" />
+    <fragment
+        android:id="@+id/computerScienceFragment"
+        android:name="com.example.edubook.ComputerScienceFragment"
+        android:label="fragment_computer_science"
+        tools:layout="@layout/fragment_computer_science" />
 </navigation>
