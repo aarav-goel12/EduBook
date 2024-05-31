@@ -12,13 +12,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CHAPTERS"
-        android:textSize="40dp"
+        android:textSize="@dimen/textSizeHeading"
         android:gravity="center"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="COMPUTER GRAPHICS"
-        android:textSize="30dp"
+        android:textSize="@dimen/normalTextSize"
         android:layout_marginTop="20dp"/>
     <Button
         android:layout_width="match_parent"

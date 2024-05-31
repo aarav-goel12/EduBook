@@ -20,14 +20,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="MATHEMATICS"
-        android:textSize="25dp"
+        android:textSize="30dp"
         android:layout_margin="15dp"/>
     <Button
         android:id="@+id/PhysicsId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PHYSICS"
-        android:textSize="25dp"
+        android:textSize="30dp"
         android:layout_margin="15dp"/>
 
     <Button
@@ -35,14 +35,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CHEMISTRY"
-        android:textSize="25dp"
+        android:textSize="30dp"
         android:layout_margin="15dp"/>
     <Button
         android:id="@+id/CSId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="COMPUTER SCIENCE"
-        android:textSize="25dp"
+        android:textSize="30dp"
         android:layout_margin="15dp"/>
 
 </LinearLayout>
