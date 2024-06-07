@@ -34,7 +34,7 @@ class SubjectListFragment : Fragment() {
         view.findNavController().navigate(R.id.action_subjectListFragment_to_chemistryFragment)
     }
     val cSButton = view.findViewById<Button>(R.id.CSId)
-    chemistryButton.setOnClickListener {
+    cSButton.setOnClickListener {
         view.findNavController().navigate(R.id.action_subjectListFragment_to_computerScienceFragment)
     }
     return view
