@@ -32,6 +32,9 @@
         <action
             android:id="@+id/action_subjectListFragment_to_computerScienceFragment"
             app:destination="@id/computerScienceFragment" />
+        <action
+            android:id="@+id/action_subjectListFragment_to_subjectFragment"
+            app:destination="@id/subjectFragment" />
     </fragment>
     <fragment
         android:id="@+id/mathFragment"
@@ -53,4 +56,9 @@
         android:name="com.example.edubook.ComputerScienceFragment"
         android:label="fragment_computer_science"
         tools:layout="@layout/fragment_computer_science" />
+    <fragment
+        android:id="@+id/subjectFragment"
+        android:name="com.example.edubook.SubjectFragment"
+        android:label="fragment_chapter"
+        tools:layout="@layout/fragment_chapter" />
 </navigation>

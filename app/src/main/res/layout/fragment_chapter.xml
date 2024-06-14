@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubjectFragment"
+    android:background="#5AFDFC"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/SubjectNameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_name"
+        android:gravity="center"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/Chapter1ButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHAPTER 1"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/Chapter2ButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHAPTER 2"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/Chapter3ButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHAPTER 3"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/Chapter4ButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHAPTER 4"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/Chapter5ButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHAPTER 5"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

@@ -12,6 +12,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#96F4F4"
+    app:defaultNavHost = "true"
     android:name="androidx.navigation.fragment.NavHostFragment"
     app:navGraph= "@navigation/nav_graph"/>
 </LinearLayout>
