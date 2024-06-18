@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CHAPTERS"
+        android:text="@string/chapters"
         android:textSize="@dimen/textSizeHeading"
         android:gravity="center"/>
     <Button
@@ -23,25 +23,25 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CRYPTOGRAPHY"
+        android:text="@string/cryptography"
         android:textSize="30dp"
         android:layout_marginTop="20dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NETWORK SECURITY"
+        android:text="@string/network_security"
         android:textSize="30dp"
         android:layout_marginTop="20dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="DATA STRUCTURES"
+        android:text="@string/data_structures"
         android:textSize="30dp"
         android:layout_marginTop="20dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ARTIFICIAL INTELLIGENCE"
+        android:text="@string/artificial_intelligence"
         android:textSize="30dp"
         android:layout_marginTop="20dp"/>
 

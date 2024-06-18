@@ -37,21 +37,38 @@ class SubjectListFragment : Fragment() {
     physicsButton.setOnClickListener {
         val bundle = Bundle()
         bundle.putString("sub_name","PHYSICS")
-        bundle.putString("chap1","XYZZGD")
-        bundle.putString("chap2","MECHANICS")
-        bundle.putString("chap3","LINEAR EQUAVREVWERVWETION")
-        bundle.putString("chap4","BINOMIAL XCQWECQWEEOREM")
-        bundle.putString("chap5","TRIGONEVEWVRY")
+        bundle.putString("chap1","MECHANICS")
+        bundle.putString("chap2","ELECTROMAGNETISM")
+        bundle.putString("chap3","OPTICS")
+        bundle.putString("chap4","THERMODYNAMICS")
+        bundle.putString("chap5","QUANTUM MAGNETISM")
 //        view.findNavController().navigate(R.id.action_subjectListFragment_to_physicsFragment)
+    view.findNavController().navigate(R.id.action_subjectListFragment_to_subjectFragment,bundle)
     view.findNavController().navigate(R.id.action_subjectListFragment_to_subjectFragment,bundle)
     }
     val chemistryButton = view.findViewById<Button>(R.id.ChemistryId)
     chemistryButton.setOnClickListener {
-        view.findNavController().navigate(R.id.action_subjectListFragment_to_chemistryFragment)
+        val bundle = Bundle()
+        bundle.putString("sub_name","CHEMISTRY")
+        bundle.putString("chap1","MATERIAL SCIENCE")
+        bundle.putString("chap2","ELECTROCHEMISTRY")
+        bundle.putString("chap3","STATIC MECHANICS")
+        bundle.putString("chap4","CHROMATOGRAPHY")
+        bundle.putString("chap5","CHEMICAL INFORMATION SCIENCE")
+//        view.findNavController().navigate(R.id.action_subjectListFragment_to_chemistryFragment)
+        view.findNavController().navigate(R.id.action_subjectListFragment_to_subjectFragment,bundle)
     }
     val cSButton = view.findViewById<Button>(R.id.CSId)
     chemistryButton.setOnClickListener {
-        view.findNavController().navigate(R.id.action_subjectListFragment_to_computerScienceFragment)
+        val bundle = Bundle()
+        bundle.putString("sub_name","COMPUTER SCIENCE")
+        bundle.putString("chap1","COMPUTER GRAPHICS")
+        bundle.putString("chap2","CRYPTOGRAPHY")
+        bundle.putString("chap3","NETWORK SECURITY")
+        bundle.putString("chap4","DATA STRUCTURES")
+        bundle.putString("chap5","ARTIFICIAL INTELLIGENCE")
+//        view.findNavController().navigate(R.id.action_subjectListFragment_to_computerScienceFragment)
+        view.findNavController().navigate(R.id.action_subjectListFragment_to_subjectFragment,bundle)
     }
     return view
     }
