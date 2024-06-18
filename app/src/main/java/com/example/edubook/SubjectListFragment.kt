@@ -44,7 +44,6 @@ class SubjectListFragment : Fragment() {
         bundle.putString("chap5","QUANTUM MAGNETISM")
 //        view.findNavController().navigate(R.id.action_subjectListFragment_to_physicsFragment)
     view.findNavController().navigate(R.id.action_subjectListFragment_to_subjectFragment,bundle)
-    view.findNavController().navigate(R.id.action_subjectListFragment_to_subjectFragment,bundle)
     }
     val chemistryButton = view.findViewById<Button>(R.id.ChemistryId)
     chemistryButton.setOnClickListener {
@@ -59,7 +58,7 @@ class SubjectListFragment : Fragment() {
         view.findNavController().navigate(R.id.action_subjectListFragment_to_subjectFragment,bundle)
     }
     val cSButton = view.findViewById<Button>(R.id.CSId)
-    chemistryButton.setOnClickListener {
+    cSButton.setOnClickListener {
         val bundle = Bundle()
         bundle.putString("sub_name","COMPUTER SCIENCE")
         bundle.putString("chap1","COMPUTER GRAPHICS")
