@@ -7,6 +7,12 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/MaterialViewId"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"/>
+
 <androidx.fragment.app.FragmentContainerView
     android:id="@+id/FragmentContainerViewId"
     android:layout_width="match_parent"

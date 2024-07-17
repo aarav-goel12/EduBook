@@ -60,5 +60,49 @@
         android:id="@+id/subjectFragment"
         android:name="com.example.edubook.SubjectFragment"
         android:label="fragment_chapter"
-        tools:layout="@layout/fragment_chapter" />
+        tools:layout="@layout/fragment_chapter" >
+        <action
+            android:id="@+id/action_subjectFragment_to_ratioanalNumFragment"
+            app:destination="@id/ratioanalNumFragment" />
+        <action
+            android:id="@+id/action_subjectFragment_to_algebraChapterFragment"
+            app:destination="@id/algebraChapterFragment" />
+        <action
+            android:id="@+id/action_subjectFragment_to_bionomialTheorumChapterFragment"
+            app:destination="@id/bionomialTheorumChapterFragment" />
+        <action
+            android:id="@+id/action_subjectFragment_to_linearEquationsChapterFragment"
+            app:destination="@id/linearEquationsChapterFragment" />
+        <action
+            android:id="@+id/action_subjectFragment_to_trigonometryChapterFragment2"
+            app:destination="@id/trigonometryChapterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.edubook.HelpFragment"
+        android:label="Help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/ratioanalNumFragment"
+        android:name="com.example.edubook.RatioanalNumFragment"
+        android:label="fragment_ratioanal_num"
+        tools:layout="@layout/fragment_ratioanal_num" />
+    <fragment
+        android:id="@+id/algebraChapterFragment"
+        android:name="com.example.edubook.AlgebraChapterFragment"
+        android:label="fragment_algebra_chapter"
+        tools:layout="@layout/fragment_algebra_chapter" />
+    <fragment
+        android:id="@+id/bionomialTheorumChapterFragment"
+        android:name="com.example.edubook.BionomialTheorumChapterFragment"
+        android:label="BionomialTheorumChapterFragment" />
+    <fragment
+        android:id="@+id/trigonometryChapterFragment"
+        android:name="com.example.edubook.TrigonometryChapterFragment"
+        android:label="TrigonometryChapterFragment" />
+    <fragment
+        android:id="@+id/linearEquationsChapterFragment"
+        android:name="com.example.edubook.LinearEquationsChapterFragment"
+        android:label="fragment_linear_equations_chapter"
+        tools:layout="@layout/fragment_linear_equations_chapter" />
 </navigation>
